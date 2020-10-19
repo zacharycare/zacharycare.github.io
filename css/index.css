@@ -8,6 +8,9 @@ html,body{
 a {
   text-decoration: none;
 }
+a:visited {
+  color: blue;
+}
 
 body {
   display: flex;
