@@ -17,6 +17,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  background:url("../image/bg.jpg") no-repeat center center fixed;
+  background-size:cover;
 }
 .main {
   display: inline-block;
