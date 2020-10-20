@@ -1,49 +1,3 @@
-<!doctype html>
-<html>
-<head>
-<meta charset="utf-8">
-<title>particles.js粒子背景连线动画</title>
-
-<style>
-body {
-  margin: 0;background-color: #fff;
-}
-
-#particles-js {
-  position: absolute;
-  height: 100%;
-  width: 100%;
-}
-
-.text {
-  color:#333;
-  position: absolute;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 200px;
-  width: 300px;
-  top: calc(50% - 100px);
-  left: calc(50% - 150px);font-size:4em; font-weight: 400;
-}
-
-.img {
-  display: inline-block;
-  height: 100px;
-  z-index: 100;
-}
-</style>
-</head>
-<body>
-
-<script src="particles.min.js"></script>
-
-<div class="text">粒子线条</div>
-<div id="particles-js"></div>
-
-<script>
-/* ---- particles.js config ---- */
-
 particlesJS("particles-js", {
   particles: {
     number: {
@@ -64,7 +18,7 @@ particlesJS("particles-js", {
       },
       polygon: {
         nb_sides: 5
-      } 
+      }
     },
     opacity: {
       value: 1,
@@ -149,7 +103,3 @@ particlesJS("particles-js", {
   },
   retina_detect: true
 });
-</script>
-
-</body>
-</html>

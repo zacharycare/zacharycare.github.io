@@ -8,19 +8,24 @@ html,body{
 a {
   text-decoration: none;
 }
-a:link {color: #4D4D4D} /* 未访问的链接 #4d4d4*/
+a:link {color: #4D4D4D} /* 未访问的链接 */
 a:visited {color: #4D4D4D} /* 已访问的链接 */
 a:hover {color: #4D4D4D} /* 鼠标移动到链接上 */
 a:active {color: #4D4D4D} /* 选定的链接，即鼠标按下去的时候不松开显示的状态 */
 
-body {
+#particles-js {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+}
+
+.main {
+  position: absolute;
+  height: 100%;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  /* background:url("../image/bg.jpg") no-repeat center center fixed;
-  background-size:cover; */
-}
-.main {
-  display: inline-block;
   font-size: 26px;
 }
